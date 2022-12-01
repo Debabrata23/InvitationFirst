@@ -1,0 +1,404 @@
+/*------------------------ecternal css*-------------------------------/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./external/OpNJno4ck8vc-xYpwWWxliBVWyXD.woff2') format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./external/OpNJno4ck8vc-xYpwWWxliBVWyXD.woff2') format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./external/OpNJno4ck8vc-xYpwWWxliBVWyXD.woff2') format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./external/OpNJno4ck8vc-xYpwWWxliBVWyXD.woff2') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Yeseva One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./external/OpNJno4ck8vc-xYpwWWxliBVWyXD.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*-----------------------------end-----------------------------------*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.main_bg
+  {
+   background-color:rgb(197 31 31) !important;
+   height:1000px;
+}
+.header_text_sub
+{
+  margin-top: -19%;
+}
+.header_text
+{
+  margin-top: -20%;
+}
+.header_text_sub>span {
+  font-style: normal;
+    font-size: 37px;
+    font-family: 'Yeseva One';
+    /* line-height: 70px; */
+    position: relative;
+    /* left: -9%; */
+    right: 3%;
+    font-weight: 900;
+    /* word-break: break-all; */
+    width: 45%;
+    position: relative;
+    right: 22%;
+    color: #ff8c;
+}
+.subtitle
+{
+  color: white;
+  font-size: 21px;
+  position: relative;
+  /* left: 0%; */
+  /* right: 0%; */
+  top: 4px;
+  letter-spacing: 3px
+}
+.header_text>span {
+  
+  font-style: normal;
+    font-size: 37px;
+    font-family: 'Yeseva One';
+    /* line-height: 70px; */
+    position: relative;
+    /* left: -9%; */
+    right: 3%;
+    font-weight: 900;
+    /* word-break: break-all; */
+    width: 45%;
+    position: relative;
+    right: 20%;
+    line-height: 4.5;
+    color: #ff8c;
+}
+.date_div{
+  background-color: white;
+    width: 252px;
+    height: 32px;
+    transform: rotate(-90deg);
+    /* margin-top: 0%; */
+    left: 42%;
+    position: relative;
+}
+.date_div_month
+{
+  background-color: white;
+    width: 186px;
+    height: 32px;
+    transform: rotate(-90deg);
+    /* margin-top: 0%; */
+    left: 61%;
+    position: relative;
+}
+.date_div_month>span{
+  font-size: 40px;
+    position: relative;
+    left: 5%;
+    top: -46%;
+    font-family: 'Yeseva One';
+    color: rgba(105,28,31,1);
+    /* background-color: white; */
+    font-weight: 700;
+}
+.date_div>span
+{
+  font-size: 40px;
+    position: relative;
+    left: -10%;
+     top: -45%; 
+     font-family: 'Yeseva One';
+    color: rgba(105,28,31,1);
+    /* background-color: white; */
+    font-weight: 700;
+    
+}
+.image2
+{
+  position: relative;
+  width: 272px;
+  height: 144px;
+  top: 31px;
+  left: 44px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 45%;
+}
+
+.image1
+{
+  position: relative;
+    width: 272px;
+    height: 144px;
+    /* left: -8%; */
+    right: 46px;
+    top: 21px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 37%;
+}
+.image3
+  {
+    position: relative;
+    width: 272px;
+    height: 144px;
+    top: 43px;
+    right: 46px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  .subtitle_address
+{
+  color: white;
+    font-size: 19px;
+    position: relative;
+    /* left: 0%; */
+    right: 2%; 
+    top: 64px;
+    font-family: 'Josefin Sans';
+   
+}
+.subtitle_address_details
+{
+  color: rgba(232, 206, 32, 0.817);
+    font-size: 16px;
+    position: relative;
+    /* left: 0%; */
+    /* right: 0%; */
+    top: 73px;
+    font-weight: 200;
+   font-style: italic;
+    word-spacing: 2px;
+    font-family: 'Josefin Sans';
+}
+.subtitle_timing
+{
+  color: rgba(232, 206, 32, 0.817);
+  top: 68px;
+  position: relative;
+  word-spacing: 2px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .subtitle_timing
+  {
+    color: rgba(232, 206, 32, 0.817);
+    top: 68px;
+    position: relative;
+    word-spacing: 2px;
+  }
+  .image3
+  {
+    position: relative;
+    width: 272px;
+    height: 144px;
+    top: 43px;
+    right: 46px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  .image2{
+    position: relative;
+    width: 272px;
+    height: 144px;
+    top: 31px;
+    left: 44px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 45%;
+  }
+  .image1
+  {
+    position: relative;
+    width: 272px;
+    height: 144px;
+    /* left: -8%; */
+    right: 46px;
+    top: 21px;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 37%;
+  }
+.subtitle
+{
+  color: white;
+    font-size: 21px;
+    position: relative;
+    /* left: 0%; */
+    right: 3%;
+    top: 8px;
+    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans';
+   
+}
+  .date_div_month
+{
+  background-color: white;
+    width: 186px;
+    height: 32px;
+    transform: rotate(-90deg);
+    /* margin-top: 0%; */
+    left: 61%;
+    position: relative;
+}
+.date_div_month>span{
+  font-size: 40px;
+    position: relative;
+    left: 5%;
+    top: -46%;
+    font-family: 'Yeseva One';
+    color: rgba(105,28,31,1);
+    /* background-color: white; */
+    font-weight: 700;
+}
+  .main_bg
+  {
+   background-color:rgb(197 31 31) !important;
+   max-width: 100% !important;
+   max-height: 100% !important;
+   height:1000px;
+}
+.subtitle_address
+{
+  color: white;
+    font-size: 19px;
+    position: relative;
+    /* left: 0%; */
+    right: 2%; 
+    top: 64px;
+    font-family: 'Josefin Sans';
+   
+}
+.subtitle_address_details
+{
+  color: rgba(232, 206, 32, 0.817);
+    font-size: 16px;
+    position: relative;
+    /* left: 0%; */
+    /* right: 0%; */
+    top: 73px;
+    font-weight: 200;
+    font-style: italic;
+    word-spacing: 2px;
+    font-family: 'Josefin Sans';
+}
+.header_text_sub
+{
+  margin-top: -19%;
+}
+.header_text
+{
+  margin-top: -20%;
+}
+.header_text_sub>span {
+  font-style: normal;
+  font-size: 37px;
+  font-family: 'Yeseva One';
+  /* line-height: 70px; */
+  position: relative;
+  /* left: -9%; */
+  right: 3%;
+  font-weight: 900;
+  /* word-break: break-all; */
+  width: 45%;
+  position: relative;
+  right: 22%;
+  color: #ff8c;
+}
+.header_text>span {
+  
+  font-style: normal;
+    font-size: 37px;
+    font-family: 'Yeseva One';
+    /* line-height: 70px; */
+    position: relative;
+    /* left: -9%; */
+    right: 3%;
+    font-weight: 900;
+    /* word-break: break-all; */
+    width: 45%;
+    position: relative;
+    right: 20%;
+    line-height: 4.5;
+    color: #ff8c;
+}
+.date_div{
+  background-color: white;
+    width: 252px;
+    height: 32px;
+    transform: rotate(-90deg);
+    /* margin-top: 0%; */
+    left: 42%;
+    position: relative;
+}
+.date_div>span
+{
+    font-size: 40px;
+    position: relative;
+    left: -10%;
+     top: -45%; 
+     font-family: 'Yeseva One';
+    color: rgba(105,28,31,1);
+    /* background-color: white; */
+    font-weight: 700;
+    
+}
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
